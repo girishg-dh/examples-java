@@ -64,7 +64,7 @@ public class SensorSource extends RichParallelSourceFunction<SensorReading> {
             }
 
             // wait for 100 ms
-            Thread.sleep(100);
+            Thread.sleep(1000);
         }
     }
 
